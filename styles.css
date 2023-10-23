@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins';
+	background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+	background-size: cover;
+}
+
+header {
+	color: #fff;
+	text-align: center;
+	margin: 3rem auto;
+}
+
+header > h1 {
+	font-weight: 400;
+}
+
+header > p {
+	font-size: 1.2rem;
+	font-style: italic;
+	margin-top: 0.5rem;
+}
+
+input, textarea, select {
+	font-family: 'Poppins';
+	font-size: 1rem;
+	display: block;
+	width: 100%;
+	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
+	padding: 0.5rem 0.75rem;
+	border: none;
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.input-focus:focus {
+/*	border-color: #80bdff;*/
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.small {
+	font-size: small;
+	vertical-align: middle;
+}
+
+input[type="radio"] , input[type="checkbox"] {
+	width: unset;
+	min-width: 1.25rem;
+	min-height: 1.25rem;
+	display: inline-block;
+	margin: -0.125rem 0.625rem 0 0;
+	vertical-align: middle;
+}
+
+.two, .three {
+	border: none;
+	margin-bottom: 2rem;
+}
+
+.two-title, .three-title {
+	margin: 0.5rem 0;
+}
+
+.radio-label, .checkbox-label {
+	margin-bottom: 0.5rem;
+}
+
+form {
+	color: #fff;
+	background-color: rgb(27, 27, 50, 0.8);
+/*	opacity: 60%;*/
+	width: 80%;
+	min-width: 300px;
+	max-width: 725px;
+	margin: 0 auto;
+	padding: 3rem;
+	border-radius: 5px;
+}
+
+label {
+	font-size: 1.125rem;
+	display: block;
+}
+
+input[type="submit"] {
+	color: #fff;
+	margin-top: 2rem;
+	padding: 0.75rem;
+	background-color: #3dc473;
+}
